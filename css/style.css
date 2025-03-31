@@ -1,0 +1,1063 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Urbanist-regular;
+  src: url(../fonts/urbanist/Urbanist-Regular.ttf);
+}
+
+@font-face {
+  font-family: Urbanist-black;
+  src: url(../fonts/urbanist/Urbanist-Black.ttf);
+}
+
+@font-face {
+  font-family: Urbanist-Bold;
+  src: url(../fonts/urbanist/Urbanist-Bold.ttf);
+}
+
+@font-face {
+  font-family: Urbanist-light;
+  src: url(../fonts/urbanist/Urbanist-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-light;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Urbanist-Medium;
+  src: url(../fonts/urbanist/Urbanist-Medium.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+
+body {
+  width: 100%;
+  font-family: Urbanist-regular, sans-serif;
+  color: black;
+  background-color: #fff;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.con_wel {
+  min-height: 100vh;
+  background-image: url(../img/welcum.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.auto_width {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.507);
+  margin-top: 25px;
+  backdrop-filter: blur(11px);
+}
+
+.logo {
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  padding: 30px;
+}
+
+.poisk {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 742px;
+  height: 50px;
+  padding: 20px;
+}
+
+.tu {
+  font-family: Urbanist-black;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.header img {
+  color: #fff;
+  gap: 30px;
+  width: 16px;
+  height: 16px;
+}
+
+.btn {
+  padding: 5px 50px;
+  height: 50px;
+  background-color: #b79b6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-wrap: nowrap;
+}
+
+.text_header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 100px;
+}
+
+.mikrotitle {
+  display: flex;
+  font-size: 22px;
+  font-family: Urbanist-Bold;
+}
+
+.mikrotitle img {
+  margin-right: 5px;
+}
+
+.title_one {
+  font-family: Urbanist-regular;
+  font-size: 62px;
+}
+
+.title_one1 {
+  font-family: Urbanist-regular;
+  font-size: 42px;
+  text-wrap: nowrap;
+}
+
+.title_one2 {
+  font-family: Urbanist-regular;
+  font-size: 52px;
+}
+
+.title_two {
+  font-family: Urbanist-Black;
+  font-size: 62px;
+}
+
+.title_two1 {
+  font-family: Urbanist-Black;
+  font-size: 42px;
+  text-wrap: nowrap;
+}
+
+.title_two2 {
+  font-family: Urbanist-Black;
+  font-size: 52px;
+}
+
+.titr {
+  font-size: 16px;
+  font-family: Poppins-light;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.titr1 {
+  font-size: 16px;
+  font-family: Poppins-light;
+  margin-top: 18px;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.titr3 {
+  font-size: 16px;
+  font-family: Poppins-light;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.str2 {
+  display: flex;
+  width: 1180px;
+  margin: 120px 0;
+}
+
+.osn_img2 {
+  width: 675px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titr2 {
+  font-size: 12.9px;
+  font-family: Poppins-light;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin: 15px 0;
+}
+
+.title1 {
+  margin: 15px 0;
+}
+
+.rectang {
+  width: 100%;
+  height: 2px;
+  background-color: #e4e4e4;
+  margin: 25px 0;
+}
+
+.ul_about {
+  list-style-image: url(../img/marker.png);
+  font-size: 16px;
+  font-family: PoppinsLight;
+  margin-left: 25px;
+}
+
+.ul_about li {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.tochki {
+  position: absolute;
+  width: 100px;
+  z-index: -10;
+  right: 1247px;
+  top: 1099px;
+}
+
+.rectangl_years {
+  padding: 100px 0;
+  width: 100%;
+  background-image: url(../img/3str.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 170px;
+  color: #fff;
+}
+
+.str3 {
+  position: absolute;
+  width: 58%;
+  left: 750px;
+  top: 1690px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact_nomer {
+  display: flex;
+  flex-direction: column;
+}
+
+.telephone {
+  background-image: url(../img/telephone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+
+.nomer {
+  font-family: Urbanist-black;
+  font-size: 25px;
+}
+
+.years_watch {
+  z-index: 2;
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 160px;
+  background-color: #b79b6c;
+  color: #fff;
+}
+
+.years_watch p {
+  text-align: center;
+  font-family: Urbanist-Bold;
+  font-size: 16px;
+}
+
+.text_con_r {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text_con_r2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text_con_r3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text_con_r1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.man {
+  width: 100%;
+}
+
+.text_con_c {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text_con_c1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 600px;
+  background-color: #fff;
+  padding: 45px;
+  align-items: start;
+  position: relative;
+}
+
+.text_con_c2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: urbanist-regular;
+  font-size: 24px;
+}
+
+.services {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.services_text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.services_card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 45px;
+  box-shadow: 0px 0px 7px 3px rgba(34, 60, 80, 0.05);
+}
+
+.separator {
+  width: 150px;
+  height: 2px;
+  background-color: #b79b6c;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.explore button {
+  border: none;
+  border-bottom: 2px solid #b79b6c;
+  color: #b79b6c;
+  background-color: transparent;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.projects {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.titlel {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+  gap: 10px;
+}
+
+.titlel1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.titlel2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.titlel3 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  gap: 30px;
+}
+
+.projects_cards {
+  margin: 0 auto;
+  margin-top: 60px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 2fr 3fr 2fr;
+}
+
+.projects_card {
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  align-items: end;
+  color: #fff;
+  font-size: 32px;
+  font-family: Urbanist-regular;
+}
+
+.projects_card2 {
+  display: none;
+}
+
+.projects_card3 {
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  align-items: end;
+  color: #fff;
+  font-size: 32px;
+  font-family: Urbanist-regular;
+}
+
+.elevate {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.elevate_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.celebrating {
+  margin-top: 120px;
+  padding-top: 100px;
+  min-height: 1000px;
+  background-image: url(../img/celebration.png);
+  background-position: top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.celebrating_main {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.celebrating_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+}
+
+.celebrating_card {
+  gap: 10px;
+  background-image: url(../img/20+.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.celebrating_card1 {
+  gap: 10px;
+  background-image: url(../img/3K+.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.celebrating_card2 {
+  gap: 10px;
+  background-image: url(../img/2K+.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.celebrating_card3 {
+  gap: 10px;
+  background-image: url(../img/15+.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.celebr_num {
+  font-family: Urbanist-black;
+  font-size: 42px;
+  color: #b79b6c;
+}
+
+.news_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.news_card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 7px 3px rgba(34, 60, 80, 0.01);
+}
+
+.news_card_img {
+  padding-left: 30px;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.news_card_title {
+  font-family: Urbanist-regular;
+  font-size: 20px;
+}
+
+.news_card_text {
+  font-family: poppins-light;
+  font-size: 13px;
+}
+
+.reviews {
+  background-image: url(../img/map.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 960px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+}
+
+footer {
+  background-color: #b79b6c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_nav {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.column {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer_text {
+  font-size: 16px;
+  color: #fff;
+}
+
+.social_media {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_line {
+  border-top: 1px solid #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.column_nap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.column_email {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 3px;
+  gap: 12px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.column_email input {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-family: Urbanist-light;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.column_nap div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.column span {
+  text-wrap: nowrap;
+  font-size: 24px;
+  color: #fff;
+}
+
+.separator_footer {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.elevate_ph {
+  width: 45%;
+}
+
+.ikon {
+  width: 80px;
+}
+
+.celebrating_strel {
+  object-fit: cover;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.rev {
+  width: 35%;
+}
+
+@media (max-width: 391px) {
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .con_wel {
+    min-height: 100vh;
+    background-size: 2000px;
+    background-image: url(../img/welcome.png);
+  }
+
+  .header {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: none;
+  }
+
+  .poisk {
+    flex-direction: column;
+  }
+
+  .header__list {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 22vw 22vw 22vw;
+  }
+
+  .logo {
+    margin-bottom: 30px;
+    padding: 0 30px 40px;
+  }
+
+  .text_header {
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mikrotitle {
+    font-size: 100%;
+    margin-top: 15px;
+  }
+
+  .bigtitle {
+    width: 100%;
+  }
+
+  .mikrotitle img {
+    width: 0;
+  }
+
+  .title_one {
+    font-size: 210%;
+  }
+
+  .title_two {
+    font-size: 210%;
+  }
+
+  .titr {
+    font-size: 110%;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .titr1 {
+    font-size: 110%;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .osn_img2 {
+    width: 100%;
+  }
+
+  .str2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  .title_one1 {
+    font-size: 210%;
+    text-wrap: auto;
+  }
+
+  .title_two1 {
+    font-size: 210%;
+    text-wrap: auto;
+  }
+
+  .tochki {
+    width: 0;
+  }
+
+  .str3 {
+    display: none;
+  }
+
+  .title_one2 {
+    font-size: 210%;
+  }
+
+  .title_two2 {
+    font-size: 210%;
+  }
+
+  .years_watch {
+    display: none;
+  }
+
+  .rectangl_years {
+    padding: 50px 20px;
+    background-position: left;
+    width: auto;
+    height: auto;
+  }
+
+  .services_text .text_con_r {
+    flex-direction: column;
+  }
+
+  .services_cards {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .services_card {
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .titlel {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .services {
+    margin-top: 50px;
+  }
+
+  .projects {
+    margin-top: 50px;
+  }
+
+  .titlel3 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects_cards {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .projects_card {
+    height: 200px;
+    width: 150px;
+    font-size: x-large;
+  }
+
+  .projects_card3 {
+    display: none;
+  }
+
+  .projects_card2 {
+    height: 200px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    align-items: end;
+    color: #fff;
+    font-size: x-large;
+    font-family: Urbanist-regular;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .elevate {
+    flex-direction: column;
+  }
+
+  .elevate .zagolovok {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .elevate_ph {
+    width: 100%;
+  }
+
+  .elevate .titlel1 {
+    align-items: center;
+  }
+  .elevate_cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 5px;
+    margin-top: 20px;
+  }
+
+  .ikon {
+    width: 60px;
+  }
+
+  .celebrating {
+    background-image: none;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+
+  .celebrating_cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .celebrating_card {
+    justify-content: center;
+    background-size: 300px;
+    height: 109px;
+  }
+
+  .celebrating_card1 {
+    justify-content: center;
+    background-size: 300px;
+    height: 109px;
+  }
+
+  .celebrating_card2 {
+    justify-content: center;
+    background-size: 300px;
+    height: 109px;
+  }
+
+  .celebrating_card3 {
+    justify-content: center;
+    background-size: 300px;
+    height: 109px;
+  }
+
+  .celebrating_strel {
+    display: none;
+  }
+
+  .text_con_r1 {
+    flex-direction: column;
+  }
+
+  .news_cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zagolovok .mikrotitle {
+    justify-content: center;
+  }
+
+  .text_con_c1 {
+    width: auto;
+    padding: 5px;
+    flex-direction: column;
+    position: inherit;
+  }
+
+  .rev {
+    width: auto;
+  }
+
+  .end_img{
+    display: none;
+  }
+
+  .footer_nav {
+    width: 95%;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 40px;
+  }
+
+  .column {
+    width: 350px;
+  }
+
+  .column_email input{
+    width: 40%;
+  }
+
+  .footer_line{
+    width: 100%;
+  }
+}
