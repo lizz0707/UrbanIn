@@ -754,7 +754,7 @@ footer {
   width: 35%;
 }
 
-@media (max-width: 395px) {
+@media (max-width: 391px) {
   .container {
     display: flex;
     align-items: center;
