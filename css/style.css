@@ -775,6 +775,7 @@ footer {
 
   .poisk {
     flex-direction: column;
+    width: 100%;
   }
 
   .header__list {
@@ -838,15 +839,17 @@ footer {
     justify-content: flex-end;
     padding: 20px;
     margin-top: 5px;
+    width: 100%;
   }
 
   .title_one1 {
-    font-size: 210%;
+    font-size: 180%;
     text-wrap: auto;
+
   }
 
   .title_two1 {
-    font-size: 210%;
+    font-size: 180%;
     text-wrap: auto;
   }
 
